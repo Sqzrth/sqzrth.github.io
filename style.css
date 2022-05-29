@@ -6,27 +6,19 @@ body {
     background-color: #3e8e41;
 }
 
-.logo {
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-  }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav {
+    position: sticky;
+    background-color: aliceblue;
+    margin-bottom: 1111px;
+    text-align: left;
 }
 
 li {
     display: inline;
-    padding: 10px;
 }
 
 footer {
-    
+    position: absolute;
     background-color: aqua;
 }
 
