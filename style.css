@@ -9,7 +9,7 @@ body {
 nav {
     position: sticky;
     background-color: aliceblue;
-    margin-bottom: 1111px;
+    margin-bottom: 111px;
     text-align: left;
 }
 
@@ -19,7 +19,11 @@ li {
 
 footer {
     position: absolute;
-    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 button {
