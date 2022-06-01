@@ -8,9 +8,9 @@ body {
 
 nav {
     position: sticky;
-    background-color: aliceblue;
-    margin-bottom: 111px;
-    text-align: left;
+    top: 0;
+    left: 0;
+    background-color: aqua;
 }
 
 li {
