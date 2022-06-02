@@ -17,13 +17,12 @@ nav {
     background-color: rgba(32, 32, 32, 0.895);
 }
 
-li {
-    display: inline;
-    margin: 2em;
-}
-
 h1 {
     color: rgba(69, 69, 69, 0.69420);
+}
+
+article {
+    font-size: 50px;
 }
 
 footer {
