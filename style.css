@@ -10,13 +10,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
 }
 
-h2 {
-    color: white;
-    position: relative;
-    animation: animation 3s;
-    animation-fill-mode: forwards;
-}
-
 h1 {
     color: white;
     position: relative;
@@ -24,13 +17,28 @@ h1 {
     animation-fill-mode: forwards;
 }
 
+h2 {
+    color: white;
+    position: relative;
+    animation: animation 3s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes animation {
-    from {
+    0% {
         left: 0px;
         color: rgba(255, 255, 255, 0);
     }
-    to {
+  100% {
         left: 20px;
          color: white;
     }
+}
+
+#introduction {
+    height: 2px;
+    position: fixed;
+    animation: animation 10s;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.5);
 }
