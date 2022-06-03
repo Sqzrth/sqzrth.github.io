@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
 }
 
+h2 {
+    color: white;
+    position: relative;
+    animation: animation 3s;
+    animation-fill-mode: forwards;
+}
+
 h1 {
     color: white;
     position: relative;
