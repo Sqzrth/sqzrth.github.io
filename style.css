@@ -10,6 +10,12 @@ h1 {
 }
 
 @keyframes animation {
-    from {left: 0px; color: rgba(255, 255, 255, 0)}
-    to {left: 20px; color: white;}
+    from {
+        left: 0px;
+        color: rgba(255, 255, 255, 0);
+    }
+    to {
+        left: 20px;
+         color: white;
+    }
 }
