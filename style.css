@@ -37,6 +37,8 @@ h2 {
 
 #introduction {
     height: 2px;
+    position: fixed;
+    animation: animation 2s;
+    animation-fill-mode: forwards;
     background-color: rgb(255, 255, 255);
-    transform: translateX(-100vw);
 }
