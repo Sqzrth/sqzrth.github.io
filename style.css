@@ -1,15 +1,13 @@
 html {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 body {
-    height: 2000px;
+    height: 500px;
 }
 
-::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
-    opacity: 0;
-    background-color: black;
-    width: 1px;
+::-webkit-scrollbar {
+    display: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,8 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 #introduction {
     height: 2px;
     animation: animation 2s;
-    display: felx;
-    position: center;
     text-align: center;
     animation-fill-mode: forwards;
 }
