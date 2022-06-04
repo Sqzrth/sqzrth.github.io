@@ -3,7 +3,13 @@ html {
 }
 
 body {
-    overflow: hidden;
+    height: 2000px;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+    opacity: 0;
+    background-color: black;
+    width: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #introduction {
     height: 2px;
-    animation: animation 5s;
+    animation: animation 2s;
     display: felx;
     position: center;
     text-align: center;
