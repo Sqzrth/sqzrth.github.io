@@ -10,35 +10,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
 }
 
-h1 {
-    color: white;
-    position: relative;
-    animation: animation 3s;
-    animation-fill-mode: forwards;
-}
-
-h2 {
-    color: white;
-    position: relative;
-    animation: animation 4s;
-    animation-fill-mode: forwards;
-}
-
 @keyframes animation {
     0% {
-        left: 0px;
         color: rgba(255, 255, 255, 0);
     }
   100% {
-        left: 20px;
          color: white;
     }
 }
 
 #introduction {
     height: 2px;
-    position: fixed;
-    animation: animation 2s;
+    animation: animation 5s;
+    display: felx;
+    position: center;
+    text-align: center;
     animation-fill-mode: forwards;
-    background-color: rgb(255, 255, 255);
 }
