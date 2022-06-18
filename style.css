@@ -10,27 +10,23 @@ body {
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-}
-
-.test {
-    animation-duration: 1s;
-    visibility: visible;
+.animation {
+    animation-name: animation;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
 }
 
 @keyframes animation {
     0% {
-        color: rgba(255, 255, 255, 0);
+        opacity: 0;
+        visibility: hidden;
     }
   100% {
-         color: white;
+         opacity: 1;
+         visibility: visible;
     }
 }
 
-#introduction {
-    height: 2px;
-    animation: animation 2s;
-    text-align: center;
-    animation-fill-mode: forwards;
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
 }

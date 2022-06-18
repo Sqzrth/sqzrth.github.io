@@ -1,7 +1,7 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scroll()};
 
-function myFunction() {
-  if (document.documentElement.scrollTop > 200) {
-    document.getElementById("test").className = "animation";
+function scroll() {
+  if (document.documentElement.scrollTop > 1) {
+    document.getElementById("introduction").className = "animation";
   }
 }
