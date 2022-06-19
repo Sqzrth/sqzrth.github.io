@@ -1,22 +1,23 @@
 html {
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgb(255, 255, 255);
 }
 
 body {
-    height: 500px;
+    height: 5000px;
 }
 
 ::-webkit-scrollbar {
-    display: hidden;
+    display: none;
 }
 
-h1, h2 {
-    visibility: hidden;
+h1, h2, h3, h4, h5, h6 {
+    font-family: typewriter;
 }
 
-label {
-    align-self: start;
-}
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/typewriter.ttf);
+  }
 
 .animation {
     animation-name: animation;
@@ -33,6 +34,3 @@ label {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-}
