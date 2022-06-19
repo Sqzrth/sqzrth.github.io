@@ -14,6 +14,10 @@ h1, h2 {
     visibility: hidden;
 }
 
+label {
+    align-self: start;
+}
+
 .animation {
     animation-name: animation;
     animation-duration: 1s;
