@@ -3,15 +3,17 @@ html {
 }
 
 body {
-    height: 5000px;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+section {
     font-family: typewriter;
+    letter-spacing: 1px;
+    font-size: 200%;
 }
 
 @font-face {
@@ -34,3 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+#presentation {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
