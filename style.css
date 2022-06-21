@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 body {
@@ -14,6 +14,9 @@ section {
     font-family: typewriter;
     letter-spacing: 1px;
     font-size: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 @font-face {
@@ -37,7 +40,5 @@ section {
 }
 
 #presentation {
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    align-self: flex-start;
 }
