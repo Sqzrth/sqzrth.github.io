@@ -1,5 +1,7 @@
 html {
-    background-color: rgba(112, 112, 112, 0.612);
+    background-color: rgba(149, 149, 149, 0.612);
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
 }
 
 body {
@@ -11,18 +13,10 @@ body {
 }
 
 section {
-    font-family: typewriter;
-    letter-spacing: 1px;
-    font-size: 200%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
-
-@font-face {
-    font-family: typewriter;
-    src: url(fonts/typewriter.ttf);
-  }
 
 .animation {
     animation-name: animation;
